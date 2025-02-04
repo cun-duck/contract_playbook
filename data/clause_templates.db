@@ -1,0 +1,10 @@
+CREATE TABLE clauses (
+    id INTEGER PRIMARY KEY,
+    type TEXT NOT NULL,
+    content TEXT NOT NULL
+);
+
+INSERT INTO clauses (type, content) VALUES 
+('parties', 'This Agreement is made between [Company Name], incorporated under the laws of [Jurisdiction], and [Client Name], having its principal office at [Address]...'),
+('payment_terms', 'All payments shall be made within 30 calendar days from the invoice date. Late payments shall bear interest at a rate of 1.5% per month...'),
+('termination', 'Either party may terminate this Agreement by providing 60 days written notice. Upon termination, all outstanding payments shall become immediately due...');

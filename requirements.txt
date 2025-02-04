@@ -1,0 +1,7 @@
+huggingface_hub
+pysimplegui
+rapidfuzz
+python-dotenv
+pdfplumber
+sqlite-utils
+matplotlib
